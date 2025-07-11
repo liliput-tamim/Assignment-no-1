@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+button .submit:hover{
+  background-color: crimson;
+}
 
 body {
   font-family: 'Segoe UI', sans-serif;
@@ -126,6 +129,9 @@ header {
   border: none;
   border-radius: 4px;
 }
+.messi{
+  font-family: 'Raleway', sans-serif;
+}
 
 footer {
   padding: 20px;
@@ -137,8 +143,9 @@ footer {
 .logo{
     font-size: 30px;
     font-weight: bolder;
-    color: rgb(50, 50, 253);;
-}
+    color: rgb(50, 50, 253);
+    font-family: 'Inter', sans-serif;}
+    
 .abed{
     text-decoration: none;
     width: 100px;
@@ -350,7 +357,7 @@ body {
 
 .focus-btn {
   display: inline-block;
-  background-color: #4a00e0;
+  background-color: red;
   color: #ffffff;
   padding: 12px 24px;
   border-radius: 8px;
@@ -489,4 +496,16 @@ body {
 }
 .submit:hover{
   background-color: #e7f42a;
+}
+.abed:hover{
+  background-color: #2af45c;
+}
+.yoyo:hover{
+  background-color: #2af45c;
+}
+.sharif:hover{
+  background-color: #2af45c;
+}
+button .titi:hover{
+  background-color: crimson;
 }
